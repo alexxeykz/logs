@@ -207,6 +207,7 @@ mv /var/www/html/index.nginx-debian.html /var/www/
 Видим, что логи отправляются корректно. 
 ![4](https://github.com/user-attachments/assets/fbb850bb-e05e-4004-8d9e-44beb41c4880)
 
+![4](https://github.com/user-attachments/assets/cc0ae150-a91e-44cc-92c7-2f48af7b89c6)
 
 Запаковываем в стенд стенд Vagrant + Ansible.
 
