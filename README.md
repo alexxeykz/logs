@@ -170,7 +170,7 @@ error_log  /var/log/nginx/error.log;
  error_log  syslog:server=192.168.56.15:514,tag=nginx_error;
  access_log syslog:server=192.168.56.15:514,tag=nginx_access,severity=info combined;
 ```
-рис2
+![2](https://github.com/user-attachments/assets/518507c8-7255-4ebb-9fb9-3974dfe923fb)
 ```
 Для Access-логов указываем удаленный сервер и уровень логов, которые нужно отправлять. Для error_log добавляем удаленный сервер. 
 Если требуется чтобы логи хранились локально и отправлялись на удаленный сервер, требуется указать 2 строки. 	
