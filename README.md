@@ -205,7 +205,8 @@ mv /var/www/html/index.nginx-debian.html /var/www/
 ```
 После этого мы получим 403 ошибку.
 Видим, что логи отправляются корректно. 
-![4](https://github.com/user-attachments/assets/cf2a66fb-c47a-494e-8b6f-0a4213df8aea)
+![4](https://github.com/user-attachments/assets/fbb850bb-e05e-4004-8d9e-44beb41c4880)
+
 
 Запаковываем в стенд стенд Vagrant + Ansible.
 
