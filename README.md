@@ -44,9 +44,9 @@ end
 timedatectl set-timezone Europe/Moscow
 
 ```
-```
+
 Далее устанавливаем на Web машину NGINX
-```
+
 vagrant@web:~$ sudo -s
 root@web:/home/vagrant# apt update && apt install -y nginx
 
