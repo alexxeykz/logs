@@ -195,7 +195,8 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
     cat /var/log/rsyslog/web/nginx_access.log 
     cat /var/log/rsyslog/web/nginx_error.log 
 ```
-рис 3
+![3](https://github.com/user-attachments/assets/bab1df76-6056-4aa5-bade-c37cb6e8305b)
+
 ```
 Поскольку наше приложение работает без ошибок, файл nginx_error.log не будет создан. 
 Чтобы сгенерировать ошибку, можно переместить файл веб-страницы, который открывает nginx - 
