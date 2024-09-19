@@ -65,6 +65,7 @@ Get:11 http://us.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packag
 ```
 Проверяем:
 ```
+```
 root@web:/home/vagrant# systemctl status nginx
 
 ● nginx.service - A high performance web server and a reverse proxy server
