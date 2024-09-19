@@ -147,7 +147,8 @@ $template RemoteLogs,"/var/log/rsyslog/%HOSTNAME%/%PROGRAMNAME%.log"
 root@log:/home/vagrant# systemctl restart rsyslog
 
 Если ошибок не допущено, то у нас будут видны открытые порты TCP,UDP 514:
-рис 1
+рис 1![1](https://github.com/user-attachments/assets/3cf91094-8951-4aed-928e-5fa6c4f90c43)
+
 ```
 Далее настроим отправку логов с web-сервера
 
