@@ -62,7 +62,7 @@ Get:9 http://us.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages 
 Get:10 http://us.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [261 kB]
 Get:11 http://us.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [43.3 kB]
 ```
-
+```
 Проверяем:
 ```
 root@web:/home/vagrant# systemctl status nginx
