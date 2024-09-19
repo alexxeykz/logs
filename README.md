@@ -93,7 +93,6 @@ LISTEN 0      511             [::]:80           [::]:*
 root@web:/home/vagrant#
 ```
 ![1](https://github.com/user-attachments/assets/0ac93969-4f3e-42ad-abb7-e6aa9786147e)
-
 Настройка центрального сервера логов
 ```
 rsyslog установлен в системе
