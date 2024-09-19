@@ -1,0 +1,16 @@
+# Install Nginx
+---
+- name: Nginx install
+  hosts: web
+  become: True
+  become_user: root
+  roles:
+    - nginx
+
+- name: Rsyslog settings     
+  hosts: log
+  become: True
+  become_user: root
+  roles:
+    - rsyslog
+      
