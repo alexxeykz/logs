@@ -43,7 +43,7 @@ end
 ```
 timedatectl set-timezone Europe/Moscow
 
-```
+
 
 Далее устанавливаем на Web машину NGINX
 
