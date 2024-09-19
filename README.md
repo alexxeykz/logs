@@ -10,7 +10,7 @@
 ```
 ```
 Настраиваем в Vagrantfile на дистрибутиве Ubuntu 22.04 2 гостевые машины web и log
-```
+
 Vagrant.configure("2") do |config|
   # Base VM OS configuration.
   config.vm.box = "ubuntu-22.04"
